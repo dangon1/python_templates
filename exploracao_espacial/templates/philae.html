@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load static %}
 {% block conteudo %}
   <article id="philae">
    <!-- Atividade 2: fazer o código JavaScript da galeria -->
@@ -15,4 +16,5 @@
         <button id="proximo" class="controle">Próximo</button>
       </div>
   </article>
+  <script src="{% static "philiae.js" %}"></script>
 {% endblock%}

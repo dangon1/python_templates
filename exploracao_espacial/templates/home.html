@@ -1,4 +1,5 @@
  {% extends "base.html" %}
+ {% load static %}
  {% block conteudo %}
   <article id="aliens">
     <!-- Atividade 1: fazer o código JavaScript da retração/expansão
@@ -49,4 +50,5 @@
       lorem porta ac.
     </p>
   </article>
+  <script src="{% static "home.js" %}"></script>
 {% endblock%}
